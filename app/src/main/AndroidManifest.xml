@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gheytaranexports">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon_gr"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_gr_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pack" android:label="Packaging material arrival testing"></activity>
+        <activity android:name=".threehour" android:label="3 hourly testing" />
+        <activity android:name=".onehour" android:label="1 hourly testing"/>
+        <activity android:name=".proc" android:label="Processing Status"/>
+        <activity android:name=".Truck" android:label="Truck Details" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

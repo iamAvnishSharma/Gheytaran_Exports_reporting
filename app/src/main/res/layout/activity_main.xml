@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/truck"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/p1"
+            android:layout_width="82dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:background="#FFFFFF"
+            android:tint="#808080"
+            app:srcCompat="@drawable/ic_truck" />
+
+        <TextView
+            android:id="@+id/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/p1"
+            android:text="Truck Details"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/d1"
+            android:layout_toEndOf="@+id/p1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/h1"
+            android:text="Truck dispatching from mill to port"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/process"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="82dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:tint="#808080"
+            app:srcCompat="@drawable/ic_process" />
+
+        <TextView
+            android:id="@+id/h2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/p2"
+            android:text="Processing Status"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/d2"
+            android:layout_toEndOf="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/h2"
+            android:text="Daily processing status of the ongoing orger (morning and Evening shifts)"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/hour1"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/p3"
+            android:layout_width="82dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:tint="#808080"
+            app:srcCompat="@drawable/ic_1hour" />
+
+        <TextView
+            android:id="@+id/h3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/p3"
+            android:text="1 hourly testing"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/d3"
+            android:layout_toEndOf="@+id/p3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/h3"
+            android:text="1 hourly physical and cooking quality analysis"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/hour3"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/p4"
+            android:layout_width="82dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:tint="#808080"
+            app:srcCompat="@drawable/ic_3hour" />
+
+        <TextView
+            android:id="@+id/h4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/p4"
+            android:text="3 hourly testing"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/d4"
+            android:layout_toEndOf="@+id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/h4"
+            android:text="3 hourly physical and cooking quality analysis"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/pack"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/p5"
+            android:layout_width="82dp"
+            android:layout_height="60dp"
+            android:layout_marginVertical="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:tint="#808080"
+            app:srcCompat="@drawable/ic_pack" />
+
+        <TextView
+            android:id="@+id/h5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toEndOf="@+id/p5"
+            android:text="Packaging material arrival testing"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/d5"
+            android:layout_toEndOf="@+id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/h5"
+            android:text="Testing of packing material strength, specs, and design on arrival to mill"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+    </ScrollView>
